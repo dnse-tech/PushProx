@@ -34,7 +34,7 @@ MACHINE := rancher
 # Define the target platforms that can be used across the ecosystem.
 # Note that what would actually be used for a given project will be
 # defined in TARGET_PLATFORMS, and must be a subset of the below:
-DEFAULT_PLATFORMS := linux/amd64,linux/arm64
+DEFAULT_PLATFORMS := linux/s390x
 
 .PHONY: help
 help: ## display Makefile's help.

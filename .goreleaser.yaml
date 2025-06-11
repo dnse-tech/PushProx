@@ -8,8 +8,7 @@ builds:
       goos:
         - linux
       goarch:
-        - amd64
-        - arm64
+        - s390x
       binary: pushprox-client
       ldflags:
         - -s
@@ -23,8 +22,7 @@ builds:
       goos:
         - linux
       goarch:
-        - amd64
-        - arm64
+        - s390x
       binary: pushprox-proxy
       ldflags:
         - -s

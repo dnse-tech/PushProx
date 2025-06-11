@@ -2,9 +2,9 @@
 include hack/make/build.mk
 
 # Define target platforms, image builder and the fully qualified image name.
-TARGET_PLATFORMS ?= linux/amd64,linux/arm64
+TARGET_PLATFORMS ?= linux/s390x
 
-REPO ?= rancher
+REPO ?= ghcr.io/dnse-tech
 IMAGE ?= pushprox
 IMAGE_NAME = $(REPO)/$(IMAGE)
 FULL_IMAGE_TAG = $(IMAGE_NAME):$(TAG)
